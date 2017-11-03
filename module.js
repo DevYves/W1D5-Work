@@ -8,7 +8,20 @@
 
 
 
-function sum(sum){
-  return 0;
+function product(numbers){
+  if (isEmptyArray(numbers)){
+    return 0;
+  }
+
 }
+
+
+
+function isEmptyArray(arr){
+  return null;
+}
+
+module.export = product;
+
+
 
